@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="https://yyl125.top/navigation/images/avatar.png">
     <link rel="stylesheet" href="//fonts.loli.net/css?family=Arimo:400,700,400italic">
     <link rel="stylesheet" href="https://yyl125.top/navigation/media/css/icomoon.css">
-    <link rel="stylesheet" href="https://yyl125.top/navigation/media/css/main.css?v=1595162813682">
+    <link rel="stylesheet" href="https://yyl125.top/navigation/media/css/main.css?v=1595405041936">
   </head>
 
 <body class="page-body">
@@ -163,13 +163,9 @@
                     </li>
                 </ul>
             </nav>
+            
+            <br>
 
-            <!-- 今日诗词 -->
-            <div id="poem_content">
-                <h3 id="poem_sentence"></h3><span id="poem_info"></span>
-            </div>
-            <!-- 今日诗词 -->
-            <br />
             <!-- 生活方式 -->
             
             <h4 class="text-gray"><i class="icon-lightbulb" style="margin-right: 7px;" id="内容社区"></i>内容社区</h4>
@@ -1186,17 +1182,6 @@
             </footer>
         </div>
     </div>
-
-
-    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-    <script type="text/javascript">
-    jinrishici.load(function(result) {
-        var sentence = document.querySelector("#poem_sentence")
-        var info = document.querySelector("#poem_info")
-        sentence.innerHTML = result.data.content
-        info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
-    });
-    </script>
 
     <script src="//cdnjs.loli.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- 锚点平滑移动 -->

@@ -828,7 +828,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
     min-height: 0;
     border: 0;
     padding: 0;
-    margin: -30px;
+    margin: -15px;
 }
 
 .user-info-navbar .user-info-menu {

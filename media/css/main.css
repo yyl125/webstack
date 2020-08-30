@@ -632,7 +632,7 @@ body {
         display: none!important
     }
     .sidebar-menu.collapsed+.main-content .user-info-navbar .user-info-menu a[data-toggle=sidebar] {
-        color: #606161
+        color: #000000
     }
     .sidebar-menu.collapsed+.main-content .main-footer {
         left: 80px
@@ -887,7 +887,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
     position: relative;
     display: block;
     padding: 30px 20px;
-    color: #979898;
+    color: #000000;
     border-bottom: 1px solid #fff;
     top: 1px;
     z-index: 5;

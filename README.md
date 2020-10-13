@@ -26,4 +26,4 @@
 
 访问 <a href="https://yyl125.top/" target="_blank">Benjamin's Blog</a> 以了解作者的更多内容
 
-如果对 Benjamin's Navigation 有任何建议，可以发送反馈邮件（已自动填写好邮件主题和邮件地址）到 <a href="mailto:feedback@yyl125.cc?subject=Benjamin's%20Navigation%20%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88" target="_blank">feedback@yyl125.cc</a> 进行反馈 👏
+如果对 Benjamin's Navigation 有任何建议，请发送 <a href="mailto:yylyingyunlong@hotmail.com?subject=Benjamin's%20Navigation%20%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88" target="_blank">反馈邮件</a>（已自动填写好邮件主题和邮件地址）进行反馈 👏

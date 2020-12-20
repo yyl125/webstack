@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -45,154 +44,6 @@
     }
     h2 {
       font-weight: bold;
-    }
-    .hamburger-menu {
-      position: absolute;
-      top: 0;
-      left: 0;
-      padding: 35px;
-      z-index: 2;
-    }
-    .hamburger-menu button {
-      position: relative;
-      width: 30px;
-      height: 22px;
-      border: none;
-      background: none;
-      padding: 0;
-      cursor: pointer;
-    }
-    .hamburger-menu button span {
-      position: absolute;
-      height: 3px;
-      background: #000;
-      width: 100%;
-      left: 0px;
-      top: 0px;
-      -webkit-transition: 0.1s ease-in;
-      transition: 0.1s ease-in;
-    }
-    .hamburger-menu button span:nth-child(2) {
-      top: 9px;
-    }
-    .hamburger-menu button span:nth-child(3) {
-      top: 18px;
-    }
-    .hamburger-menu [data-state="open"] span:first-child {
-      -webkit-transform: rotate(45deg);
-              transform: rotate(45deg);
-      top: 10px;
-    }
-    .hamburger-menu [data-state="open"] span:nth-child(2) {
-      width: 0%;
-      opacity: 0;
-    }
-    .hamburger-menu [data-state="open"] span:nth-child(3) {
-      -webkit-transform: rotate(-45deg);
-              transform: rotate(-45deg);
-      top: 10px;
-    }
-    nav {
-      position: absolute;
-      height: 100%;
-      top: 0;
-      left: 0;
-      background: var(--green);
-      color: var(--blue);
-      width: 300px;
-      z-index: 1;
-      padding-top: 80px;
-      -webkit-transform: translateX(-100%);
-              transform: translateX(-100%);
-      -webkit-transition: 0.24s cubic-bezier(0.52, 0.01, 0.8, 1);
-      transition: 0.24s cubic-bezier(0.52, 0.01, 0.8, 1);
-    }
-    nav li {
-      -webkit-transform: translateX(-5px);
-              transform: translateX(-5px);
-      -webkit-transition: 0.16s cubic-bezier(0.44, 0.09, 0.46, 0.84);
-      transition: 0.16s cubic-bezier(0.44, 0.09, 0.46, 0.84);
-      opacity: 0;
-    }
-    nav a {
-      display: block;
-      font-size: 1.75em;
-      font-weight: bold;
-      text-decoration: none;
-      color: inherit;
-      -webkit-transition: 0.24s ease-in-out;
-      transition: 0.24s ease-in-out;
-    }
-    nav a:hover {
-      text-decoration: none;
-      color: var(--white);
-    }
-    nav[data-state="open"] {
-      -webkit-transform: translateX(0%);
-              transform: translateX(0%);
-    }
-    nav[data-state="open"] ul li:nth-child(1) {
-      -webkit-transition-delay: 0.16s;
-              transition-delay: 0.16s;
-      -webkit-transform: translateX(0px);
-              transform: translateX(0px);
-      opacity: 1;
-    }
-    nav[data-state="open"] ul li:nth-child(2) {
-      -webkit-transition-delay: 0.32s;
-              transition-delay: 0.32s;
-      -webkit-transform: translateX(0px);
-              transform: translateX(0px);
-      opacity: 1;
-    }
-    nav[data-state="open"] ul li:nth-child(3) {
-      -webkit-transition-delay: 0.48s;
-              transition-delay: 0.48s;
-      -webkit-transform: translateX(0px);
-              transform: translateX(0px);
-      opacity: 1;
-    }
-    nav[data-state="open"] ul li:nth-child(4) {
-      -webkit-transition-delay: 0.64s;
-              transition-delay: 0.64s;
-      -webkit-transform: translateX(0px);
-              transform: translateX(0px);
-      opacity: 1;
-    }
-    nav[data-state="open"] ul li:nth-child(5) {
-      -webkit-transition-delay: 0.80s;
-              transition-delay: 0.80s;
-      -webkit-transform: translateX(0px);
-              transform: translateX(0px);
-      opacity: 1;
-    }
-    nav[data-state="open"] ul li:nth-child(6) {
-      -webkit-transition-delay: 0.96s;
-              transition-delay: 0.96s;
-      -webkit-transform: translateX(0px);
-              transform: translateX(0px);
-      opacity: 1;
-    }
-    nav[data-state="open"] ul li:nth-child(7) {
-      -webkit-transition-delay: 1.12s;
-              transition-delay: 1.12s;
-      -webkit-transform: translateX(0px);
-              transform: translateX(0px);
-      opacity: 1;
-    }
-    nav[data-state="open"] ul li:nth-child(8) {
-      -webkit-transition-delay: 1.28s;
-              transition-delay: 1.28s;
-      -webkit-transform: translateX(0px);
-              transform: translateX(0px);
-      opacity: 1;
-    }
-    nav[data-state="open"] ul li:nth-child(9) {
-      -webkit-transition-delay: 1.44s;
-              transition-delay: 1.44s;
-      -webkit-transform: translateX(0px);
-              transform: translateX(0px);
-      opacity: 1;
     }
     .btn {
       z-index: 1;
@@ -259,26 +110,6 @@
   </style>
 </head>
 <body>
-<div class="hamburger-menu">
-  <button class="burger" data-state="closed">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-</div>
-<nav data-state="closed">
-    <ul>
-        <li><a href="http://47.242.51.240/">个人主页</a></li>
-        <li><a href="https://yyl125.top/">首页</a></li>
-        <li><a href="https://yyl125.top/archives">归档</a></li>
-        <li><a href="https://yyl125.top/tags">标签</a></li>
-        <li><a href="https://yyl125.top/movies">观影</a></li>
-        <li><a href="https://yyl125.top/books">阅读</a></li>
-        <li><a href="https://yyl125.top/gallery">相册</a></li>
-        <li><a href="https://yyl125.top/friends">友链</a></li>
-        <li><a href="https://yyl125.top/about">关于</a></li>
-    </ul>
-</nav>
 <main>
   <div class="container">
     <div class="row">
@@ -486,7 +317,7 @@
       <div class="col-md-6 align-self-center">
         <h1>404</h1>
         <h2>Oops！页面走丢了！</h2>
-        <p>你所访问的页面不存在！你可以选择返回首页继续访问其它内容或反馈该问题</p>
+        <p>你所访问的页面不存在！请返回首页继续访问其它内容。你也可以发送邮件向我们反馈，这将帮助我们解决此问题</p>
         <a href="https://yyl125.top/navigation/"><button class="btn green">返回首页</button></a>
         <a href="mailto:yylyingyunlong@hotmail.com?subject=Benjamin's%20Navigation%20%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88" target="_blank" rel="noreferrer noopener"><button class="btn green">反馈问题</button></a>
       </div>
